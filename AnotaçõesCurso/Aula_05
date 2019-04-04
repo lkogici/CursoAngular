@@ -1,0 +1,36 @@
+Módulos, separação de funções, atividades e códigos em módulos para
+executar coisas específicas, permitindo modularização
+
+App.module -> raiz
+
+BrowserModule -> Prepara a aplicação para ser executada em um navegador
+
+HttpModule -> Permite fazer as requisições
+
+Declaration -> Declara todas as diretivas, componentes e Pipes que serão
+utilizadas no módulo.
+
+Imports -> Importa outros módulos
+
+Providers -> Serviços que vão ficar disponíveis para todos que tiverem
+disponíveis na aplicação (no caso do AppModule)
+
+Criar um módulo com angular/cli
+->ng g m nome-modulo
+(g = gerar)
+(m = modulo)
+
+Modulo de funcionalidade (criado pelo desenvolvedor)
+
+CommonModule -> Importa diretivas
+
+Para o módulo raiz da aplicação não ficar tão grande conforme for crescendo
+o desenvolvimento, ou seja, todas as importações ficarem dentro de app.module,
+é possível criar outros módulos, e dentro destes criar componentes que também
+serão utilizados no app.html.Para isso é preciso dentro do novo módulo criado
+utilizar a característica 'exports' e dentro dela, o que se quer exportar,
+assim, quando realizar a importação do módulo inteiro dentro app.module,
+será reconhecido o objeto.
+
+Se um componente for criado dentro de um módulo e não for exportado, este
+irá funcionar como uma espécie de "componente privado" para determinado módulo.

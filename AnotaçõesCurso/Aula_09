@@ -1,0 +1,13 @@
+Formas de binding
+
+- Interpolação: valor de um atributo para o template
+{{ valor }}
+
+- Bind de propriedade: saide de um componente para o template
+[propriedade]="valor"
+
+- Eventos: informção do template para o componente
+(evento)="handler"
+
+- Two-way data binding -> template <-> componente
+[(ngModel)]="propriedade"

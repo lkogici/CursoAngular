@@ -1,0 +1,13 @@
+Gerar o esqueleto inicial de um serviço
+-> ng g s nome-servico
+
+Ao criar um serviço é necessário importar na classe onde se deseja utilizar
+
+Para se conectar com o servidor utiliza HTTP
+
+Injeção de dependência -> Requisita ao Angular que forneça uma instância de uma
+classe sem se preocupar se existe uma instância já criada ou não.
+(Através do decorator @Injectable)
+Ao utilizar um injectable, é necessário colocar na classe .module do módulo onde
+se deseja utilizar o serviço e indicar que ele irá "fornecer" dados a classe,
+utilizando a característica 'providers' e a importação so serviço

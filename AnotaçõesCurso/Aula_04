@@ -1,0 +1,10 @@
+Dentro do visual studio code é possível abrir um terminal
+Dentro de "View" -> Integrated Terminal
+
+Ao instalar o typescript com o NPM é possível compilar os seus arquivos
+utilizando 'tsc X' (X = nome do arquivo .ts)
+
+Para utilizar a ECMA script 2015 é preciso de um transpiler para
+transformar o arquivo .ts em javaScript puro.
+
+Transpiler, exemplo: Babel.

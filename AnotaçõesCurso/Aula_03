@@ -1,0 +1,7 @@
+ng -> Comando referente ao Angular
+
+ng new 'Name' -> Cria um novo projeto Angular
+
+Não pode começar um nome de projeto com '_Nome'
+
+arquivo 'package.json' contém o controle de todas as dependências
